@@ -1,0 +1,27 @@
+﻿@import "tailwindcss";
+
+@theme {
+  --color-ink: #161616;
+  --color-ink-2: #202020;
+  --color-ink-3: #272727;
+  --color-bordeaux: #7a1229;
+  --color-bordeaux-light: #a32638;
+  --color-steel: #8c8688;
+  --color-paper: #f5f1ee;
+
+  --font-display: "Archivo Expanded", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-body);
+}
+
+
+

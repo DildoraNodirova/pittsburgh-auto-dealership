@@ -1,0 +1,15 @@
+﻿SERVICES: dict[str, dict] = {
+    "oil-change": {"name": "Oil Change", "duration_minutes": 45, "price": 89},
+    "brake-inspection": {"name": "Brake Inspection", "duration_minutes": 30, "price": 49},
+    "brake-replacement": {"name": "Brake Replacement", "duration_minutes": 90, "price": 249},
+    "tire-rotation": {"name": "Tire Rotation", "duration_minutes": 30, "price": 39},
+    "tire-replacement": {"name": "Tire Replacement", "duration_minutes": 45, "price": 99},
+    "wheel-alignment": {"name": "Wheel Alignment", "duration_minutes": 60, "price": 99},
+    "battery-service": {"name": "Battery Service", "duration_minutes": 30, "price": 59},
+    "engine-diagnostics": {"name": "Engine Diagnostics", "duration_minutes": 45, "price": 79},
+    "ac-service": {"name": "AC Service", "duration_minutes": 60, "price": 119},
+    "transmission-service": {"name": "Transmission Service", "duration_minutes": 90, "price": 189},
+    "full-inspection": {"name": "Full Vehicle Inspection", "duration_minutes": 90, "price": 149},
+    "detailing": {"name": "Detailing", "duration_minutes": 120, "price": 149},
+    "other": {"name": "Other", "duration_minutes": 30, "price": 0},
+}
